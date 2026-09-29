@@ -1132,3 +1132,23 @@ p {
     max-width: none;
   }
 }
+
+/* ===== IMAGE DISPLAY FIXES ===== */
+.hero-image img,
+.story-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.hero-image {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.story-photo {
+  overflow: hidden;
+  border-radius: 12px;
+}
